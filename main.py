@@ -4,6 +4,7 @@ from patterns.structural.order_facade import OrderFacade
 from patterns.behavioral.discount_strategy import TenPercentDiscount, PriceCalculator
 
 
+
 payment = PaymentFactory.create_payment("credit")
 payment.pay(200)
 
