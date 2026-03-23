@@ -5,7 +5,7 @@ from patterns.behavioral.discount_strategy import TenPercentDiscount, PriceCalcu
 
 
 
-payment = PaymentFactory.create_payment("credit")
+payment = PaymentFactory.create_payment("credit") #Client không cần biết tạo object như thế nào, chỉ cần gọi factory
 payment.pay(200)
 
 logger = Logger()
